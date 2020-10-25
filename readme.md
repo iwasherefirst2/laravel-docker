@@ -9,15 +9,10 @@ Its required that one has [docker-compose](https://docs.docker.com/compose/insta
 
 - [Setup](#setup)
     - [1. Copy files](#step-1-copy-files-in-your-directory)
-    - [Queued Mails](#queued-mails)
-    - [Specify in Mailable](#specify-in-mailable)
+    - [2. Execute docker](#step-2-execute-docker)
+    - [3. Run Composer](#step-3-install-composer-dependencies)
     - [Bulk messages](#bulk-messages)
-- [Special Settings](#special-settings)
-    - [Multiple Mail Providers](#multiple-mail-providers)
-    - [Default mailaccount](#default-mailaccount)
-    - [Testing](#testing)
-    - [Get Mail From Database](#get-mail-from-database)
-    - [Troubleshoot](#troubleshoot)
+- [Enhancements](#enhancements)
 
 # Setup
 
@@ -50,7 +45,7 @@ this may take a moment. After the container has been setup, check the status wit
 you should see three containers are running.
 
 
-## Step 3: Install dependencies
+## Step 3: Install Composer dependencies
 
 Bash into your container:
 
