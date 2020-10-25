@@ -5,6 +5,20 @@ Laravel application with Docker in 3 minutes.
 
 Its required that one has [docker-compose](https://docs.docker.com/compose/install/) installed.
 
+## Table of Contents
+
+- [Setup](#setup)
+    - [1. Copy files](#step-1:-copy-files-in-your-directory)
+    - [Queued Mails](#queued-mails)
+    - [Specify in Mailable](#specify-in-mailable)
+    - [Bulk messages](#bulk-messages)
+- [Special Settings](#special-settings)
+    - [Multiple Mail Providers](#multiple-mail-providers)
+    - [Default mailaccount](#default-mailaccount)
+    - [Testing](#testing)
+    - [Get Mail From Database](#get-mail-from-database)
+    - [Troubleshoot](#troubleshoot)
+
 # Setup
 
 ## Step 1: Copy files in your directory
