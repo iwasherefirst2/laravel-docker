@@ -9,9 +9,8 @@ Its required that one has [docker-compose](https://docs.docker.com/compose/insta
 
 - [Setup](#setup)
     - [1. Copy files](#step-1-copy-files-in-your-directory)
-    - [2. Execute docker](#step-2-execute-docker)
+    - [2. Execute Docker](#step-2-execute-docker)
     - [3. Run Composer](#step-3-install-composer-dependencies)
-    - [Bulk messages](#bulk-messages)
 - [Enhancements](#enhancements)
 
 # Setup
