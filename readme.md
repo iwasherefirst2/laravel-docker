@@ -1,3 +1,10 @@
+# About
+
+This repo contains everything you need to get started to run a 
+Laravel application with Docker in 3 minutes.
+
+Its required that one has [docker-compose](https://docs.docker.com/compose/install/) installed.
+
 # Setup
 
 ## Step 1: Copy files in your directory
