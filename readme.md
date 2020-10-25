@@ -8,7 +8,7 @@ Its required that one has [docker-compose](https://docs.docker.com/compose/insta
 ## Table of Contents
 
 - [Setup](#setup)
-    - [1. Copy files](#step-1:-copy-files-in-your-directory)
+    - [1. Copy files](#step-1-copy-files-in-your-directory)
     - [Queued Mails](#queued-mails)
     - [Specify in Mailable](#specify-in-mailable)
     - [Bulk messages](#bulk-messages)
