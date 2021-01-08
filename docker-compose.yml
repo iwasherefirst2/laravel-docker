@@ -7,8 +7,6 @@ services:
         uid: 1000
       context: ./
       dockerfile: Dockerfile.dev
-    image: code-explained
-    container_name: code-explained-app
     working_dir: /var/www/
     environment:
       - COMPOSER_MEMORY_LIMIT=-1
@@ -21,7 +19,6 @@ services:
 
   db:
     image: mysql:5.7
-    container_name: code-explained-db
     environment:
       MYSQL_DATABASE: ${DB_DATABASE}
       MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
@@ -41,7 +38,6 @@ services:
 
   nginx:
     image: nginx:alpine
-    container_name: code-explained-nginx
     ports:
       - 8005:80
     depends_on:
