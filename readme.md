@@ -55,13 +55,13 @@ Bash into your container:
 Install composer dependencies (this may also take a moment):
 
   ```sh
-  docker-compose composer install
+  composer install
   ```
 
 and finally generate a key
 
   ```sh
-  docker-compose php artisan key:generate
+  php artisan key:generate
   ```
 
 :tada: Congratulations. Your app should now be accessible under `localhost:8005`
