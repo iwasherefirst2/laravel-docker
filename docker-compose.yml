@@ -26,7 +26,6 @@ services:
       MYSQL_USER: ${DB_USERNAME}
       SERVICE_TAGS: dev
       SERVICE_NAME: mysql
-      MYSQL_ROOT_PASSWORD: local
     volumes:
       - dbdata:/var/lib/mysql
       - ./docker-compose/mysql/my.cnf:/etc/mysql/my.cnf
