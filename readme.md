@@ -1,9 +1,13 @@
 # About
 
-This repo contains everything you need to get started to run a 
-Laravel application with Docker in 3 minutes.
+This repository contains everything you need to get started to run a 
+Laravel 5 / 6 / 7 application with Docker in 3 minutes. It is made for legayc projects that cannot be upgraded to Laravel 8 in near future but would like to use docker.
 
-Its required that one has [docker-compose](https://docs.docker.com/compose/install/) installed.
+This package is not needd for Laravel 8 and upwards, as this version ships with a wrapper for docker, called [Laravel Sail](https://laravel.com/docs/sail).
+
+Its required that one has [docker-compose](https://docs.docker.com/compose/install/) on the machine installed.
+
+
 
 ## Table of Contents
 
