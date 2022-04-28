@@ -19,13 +19,7 @@ Its required that one has [docker-compose](https://docs.docker.com/compose/insta
 
 ## Step 1: Copy files in your directory
 
-### New project
-
-1. Download a new Laravel version from https://github.com/laravel/laravel/ by selecting the required branch or use the [laravel installer](https://laravel.com/docs/8.x#via-laravel-installer) to get the latest version.
-
-2. Copy the files from this repository in the same folder as your Laravel project folder.
-
-### Existing project
+We assume that you add this to an existing project, as since Laravel 8 docker ships in by default.
 
 Copy all files except `.env` and `readme.md` in your current project folder. Overwrite the credentions from your `.env` locally with those provided here. If you dont want to overwrite database name and user, then please adjust the file in `docker-compose/mysql/init/01-databaes.sql` according to your needs.
 
